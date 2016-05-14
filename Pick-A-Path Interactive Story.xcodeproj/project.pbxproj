@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B73EC46D1CB56C2D00BFB9E1 /* SplashController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73EC46C1CB56C2D00BFB9E1 /* SplashController.m */; };
+		B7978FC71C9AE75C00D64BA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7978FC61C9AE75C00D64BA0 /* main.m */; };
+		B7978FCA1C9AE75C00D64BA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7978FC91C9AE75C00D64BA0 /* AppDelegate.m */; };
+		B7978FCD1C9AE75C00D64BA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7978FCC1C9AE75C00D64BA0 /* ViewController.m */; };
+		B7978FD01C9AE75C00D64BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7978FCE1C9AE75C00D64BA0 /* Main.storyboard */; };
+		B7978FD21C9AE75C00D64BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7978FD11C9AE75C00D64BA0 /* Assets.xcassets */; };
+		B7978FD51C9AE75C00D64BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7978FD31C9AE75C00D64BA0 /* LaunchScreen.storyboard */; };
+		B7978FE01C9AE75C00D64BA0 /* Pick_A_Path_Interactive_StoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7978FDF1C9AE75C00D64BA0 /* Pick_A_Path_Interactive_StoryTests.m */; };
+		B7978FEB1C9AE75C00D64BA0 /* Pick_A_Path_Interactive_StoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7978FEA1C9AE75C00D64BA0 /* Pick_A_Path_Interactive_StoryUITests.m */; };
+		B7978FFA1C9AE8A900D64BA0 /* page.m in Sources */ = {isa = PBXBuildFile; fileRef = B7978FF91C9AE8A900D64BA0 /* page.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7978FDC1C9AE75C00D64BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7978FBA1C9AE75C00D64BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7978FC11C9AE75C00D64BA0;
+			remoteInfo = "Pick-A-Path Interactive Story";
+		};
+		B7978FE71C9AE75C00D64BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7978FBA1C9AE75C00D64BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7978FC11C9AE75C00D64BA0;
+			remoteInfo = "Pick-A-Path Interactive Story";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B73EC46B1CB56C2D00BFB9E1 /* SplashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashController.h; sourceTree = "<group>"; };
+		B73EC46C1CB56C2D00BFB9E1 /* SplashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashController.m; sourceTree = "<group>"; };
+		B7978FC21C9AE75C00D64BA0 /* Pick-A-Path Interactive Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pick-A-Path Interactive Story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7978FC61C9AE75C00D64BA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7978FC81C9AE75C00D64BA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7978FC91C9AE75C00D64BA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7978FCB1C9AE75C00D64BA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7978FCC1C9AE75C00D64BA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7978FCF1C9AE75C00D64BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7978FD11C9AE75C00D64BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7978FD41C9AE75C00D64BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7978FD61C9AE75C00D64BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7978FDB1C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pick-A-Path Interactive StoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7978FDF1C9AE75C00D64BA0 /* Pick_A_Path_Interactive_StoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pick_A_Path_Interactive_StoryTests.m; sourceTree = "<group>"; };
+		B7978FE11C9AE75C00D64BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7978FE61C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pick-A-Path Interactive StoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7978FEA1C9AE75C00D64BA0 /* Pick_A_Path_Interactive_StoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pick_A_Path_Interactive_StoryUITests.m; sourceTree = "<group>"; };
+		B7978FEC1C9AE75C00D64BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7978FF81C9AE8A900D64BA0 /* page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = page.h; sourceTree = "<group>"; };
+		B7978FF91C9AE8A900D64BA0 /* page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = page.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7978FBF1C9AE75C00D64BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7978FD81C9AE75C00D64BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7978FE31C9AE75C00D64BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7978FB91C9AE75C00D64BA0 = {
+			isa = PBXGroup;
+			children = (
+				B7978FC41C9AE75C00D64BA0 /* Pick-A-Path Interactive Story */,
+				B7978FDE1C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryTests */,
+				B7978FE91C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryUITests */,
+				B7978FC31C9AE75C00D64BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7978FC31C9AE75C00D64BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7978FC21C9AE75C00D64BA0 /* Pick-A-Path Interactive Story.app */,
+				B7978FDB1C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryTests.xctest */,
+				B7978FE61C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7978FC41C9AE75C00D64BA0 /* Pick-A-Path Interactive Story */ = {
+			isa = PBXGroup;
+			children = (
+				B7978FC81C9AE75C00D64BA0 /* AppDelegate.h */,
+				B7978FC91C9AE75C00D64BA0 /* AppDelegate.m */,
+				B7978FCB1C9AE75C00D64BA0 /* ViewController.h */,
+				B7978FCC1C9AE75C00D64BA0 /* ViewController.m */,
+				B7978FCE1C9AE75C00D64BA0 /* Main.storyboard */,
+				B7978FD11C9AE75C00D64BA0 /* Assets.xcassets */,
+				B7978FD31C9AE75C00D64BA0 /* LaunchScreen.storyboard */,
+				B7978FD61C9AE75C00D64BA0 /* Info.plist */,
+				B7978FC51C9AE75C00D64BA0 /* Supporting Files */,
+				B73EC46B1CB56C2D00BFB9E1 /* SplashController.h */,
+				B73EC46C1CB56C2D00BFB9E1 /* SplashController.m */,
+			);
+			path = "Pick-A-Path Interactive Story";
+			sourceTree = "<group>";
+		};
+		B7978FC51C9AE75C00D64BA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7978FC61C9AE75C00D64BA0 /* main.m */,
+				B7978FF81C9AE8A900D64BA0 /* page.h */,
+				B7978FF91C9AE8A900D64BA0 /* page.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7978FDE1C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7978FDF1C9AE75C00D64BA0 /* Pick_A_Path_Interactive_StoryTests.m */,
+				B7978FE11C9AE75C00D64BA0 /* Info.plist */,
+			);
+			path = "Pick-A-Path Interactive StoryTests";
+			sourceTree = "<group>";
+		};
+		B7978FE91C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7978FEA1C9AE75C00D64BA0 /* Pick_A_Path_Interactive_StoryUITests.m */,
+				B7978FEC1C9AE75C00D64BA0 /* Info.plist */,
+			);
+			path = "Pick-A-Path Interactive StoryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7978FC11C9AE75C00D64BA0 /* Pick-A-Path Interactive Story */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7978FEF1C9AE75C00D64BA0 /* Build configuration list for PBXNativeTarget "Pick-A-Path Interactive Story" */;
+			buildPhases = (
+				B7978FBE1C9AE75C00D64BA0 /* Sources */,
+				B7978FBF1C9AE75C00D64BA0 /* Frameworks */,
+				B7978FC01C9AE75C00D64BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pick-A-Path Interactive Story";
+			productName = "Pick-A-Path Interactive Story";
+			productReference = B7978FC21C9AE75C00D64BA0 /* Pick-A-Path Interactive Story.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7978FDA1C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7978FF21C9AE75C00D64BA0 /* Build configuration list for PBXNativeTarget "Pick-A-Path Interactive StoryTests" */;
+			buildPhases = (
+				B7978FD71C9AE75C00D64BA0 /* Sources */,
+				B7978FD81C9AE75C00D64BA0 /* Frameworks */,
+				B7978FD91C9AE75C00D64BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7978FDD1C9AE75C00D64BA0 /* PBXTargetDependency */,
+			);
+			name = "Pick-A-Path Interactive StoryTests";
+			productName = "Pick-A-Path Interactive StoryTests";
+			productReference = B7978FDB1C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7978FE51C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7978FF51C9AE75C00D64BA0 /* Build configuration list for PBXNativeTarget "Pick-A-Path Interactive StoryUITests" */;
+			buildPhases = (
+				B7978FE21C9AE75C00D64BA0 /* Sources */,
+				B7978FE31C9AE75C00D64BA0 /* Frameworks */,
+				B7978FE41C9AE75C00D64BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7978FE81C9AE75C00D64BA0 /* PBXTargetDependency */,
+			);
+			name = "Pick-A-Path Interactive StoryUITests";
+			productName = "Pick-A-Path Interactive StoryUITests";
+			productReference = B7978FE61C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7978FBA1C9AE75C00D64BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "bear0064@algonquinlive.com";
+				TargetAttributes = {
+					B7978FC11C9AE75C00D64BA0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B7978FDA1C9AE75C00D64BA0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B7978FC11C9AE75C00D64BA0;
+					};
+					B7978FE51C9AE75C00D64BA0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B7978FC11C9AE75C00D64BA0;
+					};
+				};
+			};
+			buildConfigurationList = B7978FBD1C9AE75C00D64BA0 /* Build configuration list for PBXProject "Pick-A-Path Interactive Story" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7978FB91C9AE75C00D64BA0;
+			productRefGroup = B7978FC31C9AE75C00D64BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7978FC11C9AE75C00D64BA0 /* Pick-A-Path Interactive Story */,
+				B7978FDA1C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryTests */,
+				B7978FE51C9AE75C00D64BA0 /* Pick-A-Path Interactive StoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7978FC01C9AE75C00D64BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7978FD51C9AE75C00D64BA0 /* LaunchScreen.storyboard in Resources */,
+				B7978FD21C9AE75C00D64BA0 /* Assets.xcassets in Resources */,
+				B7978FD01C9AE75C00D64BA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7978FD91C9AE75C00D64BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7978FE41C9AE75C00D64BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7978FBE1C9AE75C00D64BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7978FCD1C9AE75C00D64BA0 /* ViewController.m in Sources */,
+				B7978FCA1C9AE75C00D64BA0 /* AppDelegate.m in Sources */,
+				B73EC46D1CB56C2D00BFB9E1 /* SplashController.m in Sources */,
+				B7978FFA1C9AE8A900D64BA0 /* page.m in Sources */,
+				B7978FC71C9AE75C00D64BA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7978FD71C9AE75C00D64BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7978FE01C9AE75C00D64BA0 /* Pick_A_Path_Interactive_StoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7978FE21C9AE75C00D64BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7978FEB1C9AE75C00D64BA0 /* Pick_A_Path_Interactive_StoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7978FDD1C9AE75C00D64BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7978FC11C9AE75C00D64BA0 /* Pick-A-Path Interactive Story */;
+			targetProxy = B7978FDC1C9AE75C00D64BA0 /* PBXContainerItemProxy */;
+		};
+		B7978FE81C9AE75C00D64BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7978FC11C9AE75C00D64BA0 /* Pick-A-Path Interactive Story */;
+			targetProxy = B7978FE71C9AE75C00D64BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7978FCE1C9AE75C00D64BA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7978FCF1C9AE75C00D64BA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7978FD31C9AE75C00D64BA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7978FD41C9AE75C00D64BA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7978FED1C9AE75C00D64BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7978FEE1C9AE75C00D64BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7978FF01C9AE75C00D64BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pick-A-Path Interactive Story/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Pick-A-Path-Interactive-Story";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7978FF11C9AE75C00D64BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pick-A-Path Interactive Story/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Pick-A-Path-Interactive-Story";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7978FF31C9AE75C00D64BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pick-A-Path Interactive StoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Pick-A-Path-Interactive-StoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pick-A-Path Interactive Story.app/Pick-A-Path Interactive Story";
+			};
+			name = Debug;
+		};
+		B7978FF41C9AE75C00D64BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pick-A-Path Interactive StoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Pick-A-Path-Interactive-StoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pick-A-Path Interactive Story.app/Pick-A-Path Interactive Story";
+			};
+			name = Release;
+		};
+		B7978FF61C9AE75C00D64BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pick-A-Path Interactive StoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Pick-A-Path-Interactive-StoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pick-A-Path Interactive Story";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B7978FF71C9AE75C00D64BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pick-A-Path Interactive StoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlgonquinCollege.bear0064.Pick-A-Path-Interactive-StoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pick-A-Path Interactive Story";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7978FBD1C9AE75C00D64BA0 /* Build configuration list for PBXProject "Pick-A-Path Interactive Story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7978FED1C9AE75C00D64BA0 /* Debug */,
+				B7978FEE1C9AE75C00D64BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7978FEF1C9AE75C00D64BA0 /* Build configuration list for PBXNativeTarget "Pick-A-Path Interactive Story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7978FF01C9AE75C00D64BA0 /* Debug */,
+				B7978FF11C9AE75C00D64BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7978FF21C9AE75C00D64BA0 /* Build configuration list for PBXNativeTarget "Pick-A-Path Interactive StoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7978FF31C9AE75C00D64BA0 /* Debug */,
+				B7978FF41C9AE75C00D64BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7978FF51C9AE75C00D64BA0 /* Build configuration list for PBXNativeTarget "Pick-A-Path Interactive StoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7978FF61C9AE75C00D64BA0 /* Debug */,
+				B7978FF71C9AE75C00D64BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7978FBA1C9AE75C00D64BA0 /* Project object */;
+}
